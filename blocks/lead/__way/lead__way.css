@@ -1,0 +1,9 @@
+.lead__way{
+  border: red solid 1px;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: calc((100% - 95.23%)/2);
+  width: 95.23%;
+  height: auto;
+}
