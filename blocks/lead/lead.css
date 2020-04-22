@@ -4,12 +4,29 @@
 @import url("./__image-place/lead__image-place.css");
 @import url("./__way/lead__way.css");
 @import url("./__caption/lead__caption.css");
-.lead{
-  max-width: 76.875%;
+.lead {
+  max-width: calc(100vw*984/1280);
   margin: auto;
-  border: solid red 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 92px;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+    max-width: calc(100vw*928/1024);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead {
+    padding-bottom: 64px;
+  }
 }

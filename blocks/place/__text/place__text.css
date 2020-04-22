@@ -1,0 +1,22 @@
+.place__text {
+  width: calc(100vw*484/1280);
+}
+
+@media screen and (max-width:1024px) {
+  .place__text {
+    width: calc(100vw*456/1024);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__text {
+    width: calc(100vw*352/768);
+  }
+}
+
+@media screen and (max-width:730px) {
+  .place__text {
+    width: calc(100vw*288/320);
+    margin: auto;
+  }
+}

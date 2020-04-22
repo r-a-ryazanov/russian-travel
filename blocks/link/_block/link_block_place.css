@@ -1,0 +1,10 @@
+.link_block_place.link_block_place {
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 1;
+  transition: opacity 1s linear 0s;
+}
+
+.link_block_place:hover {
+  opacity: 0.8;
+}

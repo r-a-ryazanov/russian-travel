@@ -1,0 +1,35 @@
+@import url("./__copyright/footer__copyright.css");
+@import url("../link/link.css");
+@import url("../link/_block/link_block_footer.css");
+@import url("./__menu/footer__menu.css");
+.footer {
+  max-width: calc(100vw*1184/1280);
+  margin: auto;
+  display: flex;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  padding-top: 92px;
+}
+
+@media screen and (max-width:1024px) {
+  .footer {
+    max-width: calc(100vw*928/1024);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    padding-top: 88px;
+    max-width: calc(100vw*720/768);
+  }
+}
+
+@media screen and (max-width:730px) {
+  .footer {
+    padding-top: 64px;
+    display: block;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    min-height: 310px;
+  }
+}

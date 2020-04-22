@@ -1,0 +1,27 @@
+.place__image {
+  width: calc(100vw*460/1280);
+  height: auto;
+}
+
+@media screen and (max-width:1024px) {
+  .place__image {
+    width: calc(100vw*440/1024);
+    height: auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__image {
+    width: calc(100vw*340/768);
+    height: auto;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .place__image {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 32px;
+    ;
+  }
+}

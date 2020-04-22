@@ -1,9 +1,32 @@
-.lead__way{
-  border: red solid 1px;
+.lead__way {
   position: absolute;
   z-index: 1;
-  top: 15%;
-  left: calc((100% - 95.23%)/2);
-  width: 95.23%;
+  top: calc(100%*90.21/615);
+  left: calc(100%*23.27/984);
+  width: calc(100%*937.09/984);
   height: auto;
+}
+
+@media screen and (max-width:1024px) {
+  .lead__way {
+    top: calc(100%*85.07/580);
+    left: calc(100%*21.95/928);
+    width: calc(100%*883.76/928);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead__way {
+    top: calc(100%*70.41/480);
+    left: calc(100%*18.16/768);
+    width: calc(100%*731.38/768);
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__way {
+    top: calc(100%*29.34/200);
+    left: calc(100%*7.57/320);
+    width: calc(100%*304.74/320);
+  }
 }
