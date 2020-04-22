@@ -5,7 +5,7 @@
 @import url("./__way/lead__way.css");
 @import url("./__caption/lead__caption.css");
 .lead {
-  max-width: calc(100vw*984/1280);
+  max-width: calc(100%*984/1280);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -13,19 +13,20 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .lead {
-    max-width: calc(100vw*928/1024);
+    max-width: calc(100%*928/1024);
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .lead {
-    max-width: 100vw;
+    max-width: 100%;
+    padding-bottom: 88px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:700px) {
   .lead {
     padding-bottom: 64px;
   }

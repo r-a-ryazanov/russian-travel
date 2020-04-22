@@ -3,7 +3,7 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__title/cover__title.css");
 .cover {
-  width: calc(100vw*1184/1280);
+  width: calc(100%*1184/1280);
   min-height: calc(100vw*740/1280);
   margin: auto;
   position: relative;
@@ -11,14 +11,13 @@
   background-size: 100% 100%;
 }
 
-@media screen and (max-width:1024px) {
-  .cover {
-    width: 100vw;
-  }
+.cover:hover .cover__background {
+  opacity: 0.8;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:1200px) {
   .cover {
-    min-height: calc(100vw*200/320);
+    width: 100%;
+    min-height: calc(100vw*640/1024);
   }
 }

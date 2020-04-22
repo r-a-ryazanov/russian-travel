@@ -5,15 +5,16 @@
   max-width: 690px;
   padding: 0;
   margin-bottom: 32px;
+  padding-left: calc(100%*100/1280);
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .intro__text {
-    max-width: 690px;
+    padding-left: 0;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .intro__text {
     max-width: 100%;
   }

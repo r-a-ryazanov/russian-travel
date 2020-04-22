@@ -7,7 +7,7 @@
   height: auto;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .lead__way {
     top: calc(100%*85.07/580);
     left: calc(100%*21.95/928);
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .lead__way {
     top: calc(100%*70.41/480);
     left: calc(100%*18.16/768);

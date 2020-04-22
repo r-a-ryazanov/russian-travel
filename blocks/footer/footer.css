@@ -1,9 +1,9 @@
 @import url("./__copyright/footer__copyright.css");
-@import url("../link/link.css");
-@import url("../link/_block/link_block_footer.css");
+@import url("./__link/footer__link.css");
 @import url("./__menu/footer__menu.css");
+@import url("./__item/footer__item.css");
 .footer {
-  max-width: calc(100vw*1184/1280);
+  max-width: calc(100%*1184/1280);
   margin: auto;
   display: flex;
   padding-bottom: 24px;
@@ -11,25 +11,24 @@
   padding-top: 92px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .footer {
-    max-width: calc(100vw*928/1024);
+    max-width: calc(100%*928/1024);
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .footer {
     padding-top: 88px;
-    max-width: calc(100vw*720/768);
+    max-width: calc(100%*720/768);
   }
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:700px) {
   .footer {
+    min-height: 310px;
     padding-top: 64px;
     display: block;
     padding-left: 16px;
-    padding-bottom: 24px;
-    min-height: 310px;
   }
 }

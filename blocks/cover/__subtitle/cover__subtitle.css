@@ -9,15 +9,9 @@
   text-align: center;
 }
 
-@media screen and (max-width:768px) {
-  .cover__subtitle {
-    max-width: calc(100vw*368/768);
-  }
-}
-
 @media screen and (max-width:730px) {
   .cover__subtitle {
-    max-width: calc(100vw*288/320);
+    max-width: calc(100%*288/320);
     font-size: 14px;
     line-height: 16px;
   }

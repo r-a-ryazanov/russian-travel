@@ -1,0 +1,4 @@
+.header__item:last-child .header__link {
+  padding-right: 0;
+  text-decoration: none;
+}

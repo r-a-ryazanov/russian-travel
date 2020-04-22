@@ -1,9 +1,16 @@
 .intro__list {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   padding: 0;
   list-style-type: none;
   margin: 0;
+  padding-left: calc(100%*100/1280);
+}
+
+@media screen and (max-width:1200px) {
+  .intro__list {
+    padding-left: 0;
+  }
 }

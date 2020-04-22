@@ -1,21 +1,8 @@
 .place__website {
-  width: calc(100vw*484/1280);
   align-self: end;
 }
 
-@media screen and (max-width:1024px) {
-  .place__website {
-    width: calc(100vw*456/1024);
-  }
-}
-
-@media screen and (max-width:768px) {
-  .place__website {
-    width: calc(100vw*352/768);
-  }
-}
-
-@media screen and (max-width:730px) {
+@media screen and (max-width:700px) {
   .place__website {
     display: none;
   }

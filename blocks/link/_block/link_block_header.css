@@ -1,9 +1,0 @@
-.link_block_header.link_block_header{
-  margin-right: 18px;
-  font-size: 24px;
-  line-height: 28px;
-}
-.link_block_header:last-child {
-  margin-right: 0;
-  text-decoration: none;
-}

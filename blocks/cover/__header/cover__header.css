@@ -1,19 +1,25 @@
 .cover__header {
   position: absolute;
   left: calc(50% - 280px);
-  top: calc(100vw*245/1280);
+  top: calc(100%*245/740);
   z-index: 1;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .cover__header {
-    top: calc(100vw*195/1024);
+    top: calc(100%*195/640);
   }
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:1000px) {
   .cover__header {
-    left: calc(50% - 100vw*288/640);
+    top: calc(100%*115/480);
+  }
+}
+
+@media screen and (max-width:700px) {
+  .cover__header {
+    left: calc(50% - 100%*288/640);
     top: calc(100vw*33/320);
   }
 }

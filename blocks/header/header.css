@@ -1,9 +1,10 @@
 @import url("./__logo/header__logo.css");
-@import url("../link/link.css");
-@import url("../link/_block/link_block_header.css");
+@import url("./__link/header__link.css");
+@import url("./__menu/header__menu.css");
+@import url("./__item/header__item.css");
 .header {
   padding-top: 28px;
-  width: calc(100vw*1184/1280);
+  width: calc(100%*1184/1280);
   margin: auto;
   padding-bottom: 56px;
   display: flex;
@@ -11,25 +12,22 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .header {
-    padding-top: 24px;
     padding-bottom: 48px;
-    width: calc(100vw*928/1024);
+    width: calc(100%*928/1024);
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .header {
-    padding-top: 28px;
-    width: calc(100vw*720/768);
+    width: calc(100%*720/768);
   }
 }
 
 @media screen and (max-width:320px) {
   .header {
     padding-top: 16px;
-    padding-bottom: 48px;
-    width: calc(100vw*288/320);
+    width: calc(100%*288/320);
   }
 }
