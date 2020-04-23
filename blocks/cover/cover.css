@@ -1,4 +1,3 @@
-@import url("./__background/cover__background.css");
 @import url("./__header/cover__header.css");
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__title/cover__title.css");
@@ -9,9 +8,22 @@
   position: relative;
   background-image: url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
   background-size: 100% 100%;
+  cursor: pointer;
 }
 
-.cover:hover .cover__background {
+.cover::after {
+  content: 'background';
+  position: absolute;
+  background-color: #2A2C2F;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.3;
+  transition: opacity 1s linear 0s;
+}
+
+.cover:hover::after {
   opacity: 0.8;
 }
 

@@ -1,7 +1,7 @@
-.intro__photo-grid {
-  width: 100%;
-  position: relative;
-  margin-top: 92px;
+@import url("./__item/photo-grid__item.css");
+.photo-grid {
+  width: calc(100%*1184/1280);
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -9,21 +9,24 @@
 }
 
 @media screen and (max-width:1200px) {
-  .intro__photo-grid {
+  .photo-grid {
+    width: calc(100%*928/1024);
     grid-gap: 14px;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (max-width:1000px) {
-  .intro__photo-grid {
+  .photo-grid {
+    width: calc(100%*720/768);
     grid-gap: 16px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width:700px) {
-  .intro__photo-grid {
+  .photo-grid {
+    width: calc(100%*288/320);
     grid-gap: 12px;
     grid-template-columns: repeat(1, 1fr);
   }

@@ -1,0 +1,9 @@
+@import url("./_font/info_font_bold.css");
+.intro__info {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+}

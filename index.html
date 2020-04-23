@@ -9,15 +9,15 @@
   <title>Спринт 3: Россия</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
-<!-- Ольга! Извините, я случайно нажал на кнопку проверки задания и Ваши комментарии стали для меня недоступны) Исправил на память... -->
+
 <body>
   <div class="page">
     <header class="header">
       <img src="./images/__logo.svg" alt="Logo" class="header__logo">
       <nav>
         <ul class="header__menu">
-          <li class="header__item"><a href="#" class="header__link">Ru</a></li>
-          <li class="header__item"><a href="#" class="header__link">En</a></li>
+          <li><a href="#" class="header__link">Ru</a></li>
+          <li><a href="#" class="header__link link_lang_en">En</a></li>
         </ul>
       </nav>
     </header>
@@ -41,26 +41,28 @@
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li><span class="bold-font">Часовых поясов</span> 11</li>
-          <li><span class="bold-font">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li><span class="bold-font">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li><span class="bold-font">Природных заповедников</span> 105</li>
-          <li><span class="bold-font">Аэропортов</span> 241</li>
+          <li class="intro__info"><span class="intro__info info_font_bold">Часовых поясов</span> 11</li>
+          <li class="intro__info"><span class="intro__info info_font_bold">Объектов природного наследия ЮНЕСКО</span> 12
+          </li>
+          <li class="intro__info"><span class="intro__info info_font_bold">Объектов культурного наследия ЮНЕСКО</span>
+            16</li>
+          <li class="intro__info"><span class="intro__info info_font_bold">Природных заповедников</span> 105</li>
+          <li class="intro__info"><span class="intro__info info_font_bold">Аэропортов</span> 241</li>
         </ul>
-        <div class="intro__photo-grid">
-          <img src="./images/train.jpg" alt="Поезд" class="intro__item">
-          <img src="./images/atharva-tulsi-472908-unsplash.jpg" alt="Гора" class="intro__item">
-          <img src="./images/tuman.jpg" alt="Туман" class="intro__item">
-          <img src="./images/sochi.jpg" alt="Сочи" class="intro__item">
-          <img src="./images/arisa-chattasa-559627-unsplash.jpg" alt="Колесо" class="intro__item">
-          <img src="./images/baikal.jpg" alt="Байкал" class="intro__item">
-          <img src="./images/elbrus.jpg" alt="Эльбрус" class="intro__item">
-          <img src="./images/stanislav-kondratiev-459423-unsplash.jpg" alt="Якоря" class="intro__item">
-          <img src="./images/kamchatka.jpg" alt="Камчатка" class="intro__item">
-          <img src="./images/kamchatka2.jpg" alt="Камчатка" class="intro__item">
-          <img src="./images/baikal2.jpg" alt="Байкал" class="intro__item">
-          <img src="./images/ergaki.jpg" alt="Ергаки" class="intro__item">
-        </div>
+      </section>
+      <section class="photo-grid">
+        <img src="./images/train.jpg" alt="Поезд" class="photo-grid__item">
+        <img src="./images/atharva-tulsi-472908-unsplash.jpg" alt="Гора" class="photo-grid__item">
+        <img src="./images/tuman.jpg" alt="Туман" class="photo-grid__item">
+        <img src="./images/sochi.jpg" alt="Сочи" class="photo-grid__item">
+        <img src="./images/arisa-chattasa-559627-unsplash.jpg" alt="Колесо" class="photo-grid__item">
+        <img src="./images/baikal.jpg" alt="Байкал" class="photo-grid__item">
+        <img src="./images/elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+        <img src="./images/stanislav-kondratiev-459423-unsplash.jpg" alt="Якоря" class="photo-grid__item">
+        <img src="./images/kamchatka.jpg" alt="Камчатка" class="photo-grid__item">
+        <img src="./images/kamchatka2.jpg" alt="Камчатка" class="photo-grid__item">
+        <img src="./images/baikal2.jpg" alt="Байкал" class="photo-grid__item">
+        <img src="./images/ergaki.jpg" alt="Ергаки" class="photo-grid__item">
       </section>
       <section class="places">
         <article class="place">
@@ -153,13 +155,12 @@
           </div>
         </article>
       </section>
-      <section class="cover">
+      <section class="cover" onclick="location.href='https://stampsy.com/na-elektrichkakh-do-baikala'">
         <div class="cover__header">
           <h3 class="cover__title">До Байкала «на собаках»</h3>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
             на электричках.</p>
         </div>
-        <div class="cover__background"></div>
       </section>
     </main>
     <footer class="footer">
